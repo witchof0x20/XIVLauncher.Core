@@ -230,7 +230,7 @@ public class MainPage : Page
 
             App.ShowMessageBlocking("Login servers could not be reached or maintenance is in progress. This might be a problem with your connection.");
 
-            return null;
+            //return null;
         }
 
         if (gateStatus == false)
@@ -245,7 +245,7 @@ public class MainPage : Page
 
             App.ShowMessageBlocking("Maintenance is in progress.");
 
-            return null;
+            //return null;
         }
 #endif
 
